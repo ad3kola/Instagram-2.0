@@ -87,7 +87,7 @@ function CommentSection({ postId }: { postId: string }) {
               placeholder="Add a comment..."
               className="flex-1 p-2 bg-transparent text-sm placeholder:text-sm text-gray-700 placeholder:font-normal border-none outline-none placeholder:text-gray-500"
             />
-            {showErrMsg && <p className = 'text-[10px] text-red-500 font-emibold'>Error uploading comment, Please try again.</p>}
+            {showErrMsg && <p className = 'text-[10px] text-red-500 font-semibold'>Error uploading comment, Please try again.</p>}
  
  </div>
               <button
