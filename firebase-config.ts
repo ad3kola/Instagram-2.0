@@ -7,10 +7,10 @@ const appId = process.env.FIREBASE_API_ID!
 
 const firebaseConfig = {
   apiKey,
-  authDomain: "facebook-clone-build-7586b.firebaseapp.com",
-  projectId: "facebook-clone-build-7586b",
-  storageBucket: "facebook-clone-build-7586b.appspot.com",
-  messagingSenderId: "1025951340309",
+  authDomain: "instagram---facebook---twitter.firebaseapp.com",
+  projectId: "instagram---facebook---twitter",
+  storageBucket: "instagram---facebook---twitter.appspot.com",
+  messagingSenderId: "544640961165",
   appId,
 };
 

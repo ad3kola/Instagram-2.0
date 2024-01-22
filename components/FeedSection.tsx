@@ -20,7 +20,7 @@ function FeedSection({
   const { data: session } = useSession();
   return (
     <>
-      <section className="flex-1 mx-auto w-full mt-14 md:mt-2 max-w-[650px] md:max-w-[700px] lg:max-w-[645px] h-full overflow-y-scroll scrollbar-hide">
+      <section className="flex-1 mx-auto w-full mt-16 md:mt-2 max-w-[650px] md:max-w-[700px] lg:max-w-[645px] h-full overflow-y-scroll scrollbar-hide">
         <div className="md:pb-0 pb-28 flex flex-col w-full ">
         
           {session && <Stories SSRStories={SSRStories} />}
