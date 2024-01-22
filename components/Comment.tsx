@@ -11,7 +11,7 @@ function Comment({comment}: {comment: CommentDetailsProps}) {
             <div className = 'w-full flex items-center space-x-2 p-1'>
                 <Image src = {IGlogo} alt={comment.userImage} className ='flex-shrink-0 rounded-full object-contain' width={35} height={35} />
                 <div className = 'w-full flex flex-col justify-center flex-grow'>
-                    <p className="text-xs font-semibold text-gray-700">{comment.username} | <span className ='text-xs font-medium text-gray-600'>@{comment.username.replace(/\s/g, '_').toLowerCase()} </span> | <span className ='text-gray-600 font-sembold text-xs'>{convertedTimestamp}</span></p>
+                    <p className="text-xs font-semibold text-gray-700">{comment.userName} | <span className ='text-xs font-medium text-gray-600'>@{comment.userName.replace(/\s/g, '_').toLowerCase()} </span> | <span className ='text-gray-600 font-sembold text-xs'>{convertedTimestamp}</span></p>
                     <p className='text-sm text-gray-700 font-medium '>{comment.comment}</p>
                 </div>
             </div>

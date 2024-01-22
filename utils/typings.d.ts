@@ -30,7 +30,7 @@ export interface PostDetailsProps {
 
 export interface CommentDetailsProps {
   readonly commentId: string;
-  username: string;
+  userName: string;
   userImage: string;
   userEmail: string;
   comment: string;

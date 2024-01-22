@@ -29,9 +29,9 @@ function CommentSection({ postId }: { postId: string }) {
    const [showErrMsg, setShowErrMsg] = useState<boolean>(false)
   const [isCommentLocked, setIsCommentLocked] = useState<boolean>(false);
   const commentDetails: InitialCommentDetailsProps = {
-    username: "Thiery Henry",
-    userImage: "",
-    userEmail: "thieryherny2008@gmail.com",
+    userName: session?.user?.name ?? '',
+    userImage: session?.user?.image as string ?? '',
+    userEmail: session?.user?.email ?? '',
     comment: commentInput,
     createdAt: serverTimestamp(),
   };
